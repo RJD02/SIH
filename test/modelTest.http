@@ -1,0 +1,12 @@
+GET http://localhost:5000/record
+
+###
+POST http://localhost:5000/record
+Content-Type: application/json
+
+{
+    "MQ2": 12.32,
+    "level": 10,
+    "humidity": 37.45,
+    "temperature": 35.87
+}
